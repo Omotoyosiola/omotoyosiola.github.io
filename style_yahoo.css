@@ -1,0 +1,343 @@
+body{
+	font-family: Georgia, Verdana, Times, Comic, sans-serif;
+	background-color: #ffffff;
+
+}
+#header {
+	width: 1500px;
+	height: 15px;
+	background-color: purple;
+	padding: 4px;
+}
+ .header2 a:link {
+ 	color: white; text-decoration: none;
+}
+.header2 a:hover {
+	text-decoration: underline;
+}
+.header2 {
+	font-size: 12px;
+	float: left;
+	padding-right: 50px;
+}
+
+.header3 {
+	float: right;
+}
+#page-content {
+	  width: 1400px ;
+	  height:760px;
+	  border: 1px ;
+  	  margin: 0px auto;
+}
+.flex-header {
+	display: -webkit-flex;
+	display: flex;
+	width: 1350px;
+	height: 60px;
+	border: 1px;
+  	margin: 15px auto;
+}
+.flex-searchbar{
+	display:flex;
+	height: 50px;
+    width: 850px;
+    border: solid 1px;
+    margin: 4px 5px;
+}
+.yahoo_search{
+	display:flex;
+	-webkit-flex: 2;
+	flex: 2;
+}
+.yahoo_image {
+	width: 250px;
+	height: 46px;
+	border: 1px;
+	margin: 1px;
+}
+#yahooimage {
+	width: 250px;
+	height: 46px;
+}
+.searchbutton {
+	width: 510px;
+	height: 46px;
+	border:solid 1px;
+	margin: 1px;
+}
+.make_yahoo {
+	width: 140px;
+	height: 46px;
+	border: 1px;
+	margin: 1px;
+}
+#makeyahoo{
+	font-family: georgia;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+}
+#makeyahoo a:link{
+	text-decoration: none;
+	color: purple;
+}
+#makeyahoo a:hover{
+	text-decoration: none;
+	color:#55bcea;
+}
+.log_in {
+	display:flex;
+	-webkit-flex: 1;
+	flex: 1;
+	width: 450px;
+}
+
+.content{
+	display: -webkit-flex;
+	display: flex;
+	width:1350px;
+	height: 650px;
+	border: 1px;
+  	margin: 15px auto ;
+}
+.flex-content{
+	height: 640px;
+    width: 300px
+    border: solid 1px;
+    margin: 4px 5px;
+}
+.taskbarcontainer {
+	-webkit-flex: 1;
+    border: 1px;
+	flex: 1;
+}
+.taskbar {
+	-webkit-flex: 1;
+	flex: 1;
+	flex-direction: column;
+	border: 1px;
+	margin: 1px;
+	height: 39px;
+}
+.taskbarimages {
+	border: 1px;
+	margin: 0px;
+}
+.taskbarlist{
+	font-size: 12px;
+	border: 1px;
+	font-style: sans-serif;
+	font-weight:bold;
+}
+.taskbarlist a:link{
+	color: purple;
+    text-decoration: none;
+}
+.taskbarlist a:hover{
+	text-decoration: none;
+	color: #55bcea;
+}
+}.news_content {
+	flex-direction: row;
+	align-self: stretch;
+	-webkit-flex: 3;
+	border: solid 1px;
+	flex: 3;
+	margin: 4px 5px;
+}
+.news_box
+{
+	flex-direction: row;
+	height: 350px;
+	margin: 4px 5px;
+	border: 1px;
+	width: 635px;
+}
+.breakingnews{
+	background: url(../Images/hillary-clinton.jpg);
+	background-size: 100% 100%;
+	height: 200px;
+	border: 1px;
+}
+#breakingnewscontent{
+    float: left;
+    margin: 145px 10px 0px 10px;
+}
+#breakingnewscontent a:link {
+ 	font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+#breakingnewscontent a:hover {
+	text-decoration: underline;
+}
+p 
+{
+	margin: 2px;
+	color: #e1e4e6;
+	font-size: small;
+}
+.otherbreakingnews{
+	display: flex;
+    height: 130px;
+    width: 635px;
+    border: 1px;
+    margin: 0px 3px;}
+.otherbreakingnews1
+{
+
+	width: 153.75px;
+}
+.otherbreakingnewsimages
+{
+	height: 90px;
+	width: 153px;
+}
+.otherbreakingnews_content a:link {
+    color: purple;
+    text-decoration: none;
+    font-size: xx-small;
+}
+.otherbreakingnews_content a:hover {
+	text-decoration: none;
+	color: #55bcea;
+}
+.otherbreakingnews_content 
+{
+	margin: 2px;
+    padding: 4px 0px
+}
+.otherbreakingnews2
+{
+	width: 153.75px;	
+}
+.otherbreakingnews3
+{
+	width: 153.75px;
+}
+.otherbreakingnews4
+{
+	width: 153.75px;
+}
+.more_newsbox
+{
+	flex-direction: row;
+	height: 275px;
+	margin: 4px 5px;
+	border: 1px;
+}
+.more_newsboxtop{
+	display: flex;
+	height: 130px;
+	border: 1px;
+}
+.more_newsboxtopleft{
+	width: 200px;
+}
+.more_newsboxtopright{
+	width: 430px;
+	margin: 0px 0px 0px 3px;
+}
+.more_newsbox_images{
+	display: inline-flex;
+	height: 128px;
+	width: 200px;
+}
+.more_newsbox_middlecontent{
+	font-size: small;
+	font-weight: bold;
+}
+.more_newsbox_middlecontent a:link{
+	color: #3f51b5;
+    text-decoration: none;
+}
+.more_newsbox_middlecontent a:hover{
+	text-decoration: none;
+	color: #55bcea;
+}
+.indepth {
+	color: grey;
+	font-weight: thin;
+	font-size: x-small;
+}
+.indepth a:link{
+	color: grey;
+	text-decoration: none;
+}
+.indepth a:hover{
+	color: grey;
+	text-decoration: none;
+}
+.more_newsboxbottom{
+	display: flex;
+	height: 130px;
+	border: 1px;
+}
+.more_newsboxbottomleft{
+	width: 200px;
+}
+.more_newsboxbottomright{
+	width: 430px;
+	margin: 0px 0px 0px 3px;
+}
+.other_info
+ {
+ 	flex-direction: row;
+	border: 1px;
+	-webkit-flex: 2;
+	flex: 2;
+	margin: 4px 5px;
+}
+.trending_box{
+	height: 250px;
+	border: 1px;
+}
+#trendnews{
+	font-family: Sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color:black;
+	margin: 5px 0px 0px 5px;
+}
+.trendnewslist{
+	display: flex;
+	flex-direction: row;
+	border: 1px;
+	height: 220px;
+	margin: 3px;
+}
+.trendnewslist1{
+	width: 150px;
+	border: 1px;
+	height: 215px;
+	margin: 2px;
+}
+.listtrend{
+	list-style-type: none;
+	margin: 5px;
+	padding-left: 1px;
+}
+.listtrendlink{
+	font-weight: bold;
+	font-size: 12px;
+	margin: 15px 0px 15px 0px;
+}
+.listtrendlink a:link{
+	text-decoration: none;
+	color: purple;
+}
+.listtrendlink a:hover{
+	text-decoration: none;
+	color:#55bcea;
+}
+.advert_box{
+	height: 220px;
+	border: 1px;
+}
+#advert {
+	display: inline-flex;
+	height: 220px;
+    width: 315px;
+}
