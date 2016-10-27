@@ -1,0 +1,117 @@
+#header {
+	padding: 10px;
+}
+#content {
+	width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+#Gmail {
+	padding: 10px;
+}
+#Images {
+	padding: 10px;
+}
+#Services {
+	padding: 10px;
+}
+#Account {
+	padding: 10px;
+}
+#Settings {
+	padding: 10px;
+}
+#UserPix {
+	padding: 10px;
+}
+#Google-Image{
+	margin-bottom: 10px;
+}
+#Gee {
+	font-family: sans-serif;
+	color: blue;
+	font-size: 80px;
+}
+#Ohh {
+	font-family: sans-serif;
+	color: red;
+	font-size: 80px;
+}
+#Oh {
+	font-family: sans-serif;
+	color: orange;
+	font-size: 80px;
+}
+#Ghe {
+	font-family: sans-serif;
+	color: blue;
+	font-size: 80px;
+}
+#Lee {
+	font-family: sans-serif;
+	color: green;
+	font-size: 80px;
+}
+#ee{
+	font-family: sans-serif;
+	color: red;
+	font-size: 80px;
+}
+#searchbox {
+	padding: 3px 1px 5px;
+    width: 400px;
+    height: 30px;
+    border-style: groove;
+    border-color: blue;
+    border-width: 2px;
+    display: inline-block;}
+input[type=text] {
+	outline: none;
+	padding-top: 5px;
+    padding-bottom: 0px;
+    border: none;
+    font-size: 25px;
+    color: black;
+    width: 350px;
+    height: 22px;}
+#footer {
+	border-style: groove;
+    border-width: 1px;
+    padding-top: 8px;
+    border-color: #fbf8f8;
+    background-color: #eae6e6;
+    position: absolute;
+    bottom: 0;
+    width: 1570px;
+    height: 30px;
+    margin: 0;}
+#footer1 {
+	float: left;
+}
+#Advertise {
+	padding: 20px;
+}
+#Business {
+	padding: 20px;
+}
+#About {
+	padding: 20px;
+}
+#Privacy {
+	padding: 20px;
+}
+#Settings {
+	padding: 20px;
+}
+#Terms {
+	padding: 20px;
+}
+#Use {
+	padding: 20px;
+}
+#footer2 {
+	float: right;
+}
